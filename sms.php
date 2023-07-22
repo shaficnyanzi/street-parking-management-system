@@ -5,7 +5,7 @@ use AfricasTalking\SDK\AfricasTalking;
 
 // Initialize the SDK
 $username = 'groupb';
-$apiKey = 'e0a75bac69431f67c0830f2a3709672a5bfb02d184117f46de699b5aff8f6a53';
+$apiKey = 'e0a75bac69431f67c0830f2a3709672a5bfb02daff8f6a53';
 $AT = new AfricasTalking($username, $apiKey);
 
 // Get the SMS service
