@@ -38,7 +38,7 @@ if(isset($_POST['pay']))
     CURLOPT_CUSTOMREQUEST => 'POST',
     CURLOPT_POSTFIELDS => json_encode($request),
     CURLOPT_HTTPHEADER => array(
-        'Authorization: Bearer FLWSECK_TEST-202f1e7ee110295e1dc5424ee9b44a12-X',
+        'Authorization: Bearer FLWSECK_TEST-202f1e7ee110295e1dc5424ee9b-X',
         'Content-Type: application/json',
         'Content-Length: ' . strlen(json_encode($request))
     ),
